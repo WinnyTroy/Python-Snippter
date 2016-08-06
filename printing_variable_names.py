@@ -32,7 +32,7 @@ print "Its fleece was whaite as %s. " % 'snow'
 print "And everywhere that Mary went."
 
 
-#prints out the period over the specified number
+# prints out the period over the specified number
 print "." * 10
 
 end1 = "C"
@@ -50,3 +50,15 @@ end12 = "r"
 
 print end1 + end2 + end3 + end4 + end5 + end6,
 print end7 + end8 + end9 + end10 + end11 + end12
+
+formatter = "%r %r %r %r"
+print formatter % (1, 2, 3, 4)
+print formatter % (formatter, formatter, formatter, formatter)
+print formatter % ("I had this thing", "That you could type up right",
+                   " But it didnt sing", " So I said goodnight.")
+
+days = "Mon \nTue \nWed \nThur \nFri"
+months = "Jan /nFeb \nMar \nApril \nMay \nJune","\nJuly \nAug \nSept \nOct \nNov \nDec"
+print "Here are the months of the year: ",  months
+
+age = raw_input("How old are you?" )
